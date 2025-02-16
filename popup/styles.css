@@ -1,0 +1,8 @@
+#alignment-grid-overlay {
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+#alignment-grid-overlay * {
+  pointer-events: none;
+}

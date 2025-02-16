@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Grid Overlay",
+  "version": "1.0",
+  "description": "Overlay adjustable grid for element alignment",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["popup/content.js"],
+    "css": ["popup/styles.css"]
+  }]
+}
